@@ -1,0 +1,5 @@
+footer{
+    color: var(--light-font-solid);
+    margin: var(--spacing-36) auto;
+    text-align: center;
+}

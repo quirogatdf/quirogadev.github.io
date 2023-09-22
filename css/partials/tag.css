@@ -1,0 +1,29 @@
+.text-style-tag{
+    color: #0e0e0e;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin-bottom: .6rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    padding: .5rem 1.3rem;
+    font-size: (--font-small);
+    line-height: 1.25;
+}
+
+.text-style-tag.bg-red{
+    background-color: #df6339;
+}
+
+.text-style-tag.bg-blue{
+    background-color: #53a7e0;
+}
+
+.text-style-tag.bg-yellow{
+    background-color: #f3c55a;
+}
+.text-style-tag.bg-pink{
+    background-color: #e396c5;
+}
+.text-style-tag.bg-green{
+    background-color: #96e3b0;
+}

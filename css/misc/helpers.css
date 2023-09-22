@@ -1,0 +1,28 @@
+.secondary-font{
+    font-family: 'Outfit', sans-serif;
+}
+.secondary-text{
+    color: var(--secondary-solid);
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container__title{
+    margin-top: var(--spacing-36);
+    color: var(--light-font-solid);
+    font-weight: 600;
+    font-size: var(--font-large);
+}
+.container__description{
+    padding: var(--spacing-8);
+}
+
+.line{
+    height: 1px;
+    background-color: rgb(24, 38, 78);
+    overflow: hidden;
+    user-select: none;
+    margin: var(--spacing-36) auto;
+}
