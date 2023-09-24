@@ -1,0 +1,20 @@
+.card-item{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-8);
+}
+.card-item__company{
+    font-size: var(--font-medium);
+
+}
+.card-item__position{
+    font-size: var(--font-small);
+    font-weight: 400;
+}
+.card-item__term{
+    font-size: var(--font-xxsmall);
+    font-weight: 200;
+}
+.card-item__description{
+    margin-left: var(--spacing-8);
+}

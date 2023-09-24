@@ -1,0 +1,5 @@
+.project-items{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-16);
+}

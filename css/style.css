@@ -5,8 +5,11 @@
 @import url("./misc/variables.css");
 
 /* Partials */
-@import url('./partials/tag.css');
+@import url('./partials/card.css');
+@import url('./partials/experience.css');
 @import url('./partials/footer.css');
+@import url('./partials/tag.css');
+@import url('./partials/projects.css');
 
 
 header{
