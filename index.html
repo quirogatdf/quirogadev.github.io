@@ -21,7 +21,7 @@
                     <a href="#project" class="navbar__link">Project</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="" class="navbar__link">Contact</a>
+                    <a href="#contact" class="navbar__link">Contact</a>
                 </li>
             </ul>
             <picture class="navbar__logo">
@@ -34,8 +34,8 @@
             <h2 class="hero__text">
                 Si se puede <strong>imaginar</strong>, se puede programar
             </h2>
-            <a href="https://drive.google.com/file/d/1cXWIWow6y1IJc7Nasah2cwVZCAtA4SUo/view?usp=sharing"
-                class="hero__button" target="_blank">DOWNLOAD CV <iconify-icon
+            <a id="download" onclick="alerta()" href=""
+                class="hero__button">DOWNLOAD CV <iconify-icon
                     icon="ph:caret-down-bold"></iconify-icon></a>
         </article>
     </section>
@@ -62,6 +62,21 @@
                     Argentina. He desarrollado muchos tipos de aplicaciones, desde una lista de tareas pendientes hasta
                     plataformas de comercio electrónico.
                 </p>
+                <!-- <div class="line"> </div> -->
+                <article>
+                    <h2 class="container__title">Skills</h2>
+                    <div class="container__description skill">
+                        <span class="text-style-tag bg-cxz., jupblue">Html</span>
+                        <span class="text-style-tag bg-red">CSS</span>
+                        <span class="text-style-tag bg-yellow">Javascript</span>
+                        <span class="text-style-tag bg-green">Node Js</span>
+                        <span class="text-style-tag bg-blue">Angular</span>
+                        <span class="text-style-tag bg-red">Express</span>
+                        <span class="text-style-tag bg-yellow">MySQL</span>
+                        <span class="text-style-tag bg-green">GIT</span>
+                        <span class="text-style-tag bg-pink">Postman</span>
+                    </div>
+                </article>
             </section>
 
             <div class="line"> </div>
@@ -97,21 +112,6 @@
                 </article>
 
                 <div class="line"> </div>
-                <article>
-                    <h2 class="container__title">Skills</h2>
-                    <div class="container__description skill">
-                        <span class="text-style-tag bg-cxz., jupblue">Html</span>
-                        <span class="text-style-tag bg-red">CSS</span>
-                        <span class="text-style-tag bg-yellow">Javascript</span>
-                        <span class="text-style-tag bg-green">Node Js</span>
-                        <span class="text-style-tag bg-blue">Angular</span>
-                        <span class="text-style-tag bg-red">Express</span>
-                        <span class="text-style-tag bg-yellow">MySQL</span>
-                        <span class="text-style-tag bg-green">GIT</span>
-                        <span class="text-style-tag bg-pink">Postman</span>
-                    </div>
-                </article>
-                <div class="line"> </div>
             </section>
             <section id="project">
                 <h2 class="container__title">Projects</h2>
@@ -122,9 +122,10 @@
                             <h4 class="card-item__position">Fecha del Proyecto: 05/07/2022</h4>
                             <p class="card-item__description">Como parte de un equipo de desarrolladores coordinado por
                                 un líder de proyecto, nos tocó desarrollar un API, con el fin de potenciar nuestras
-                                habilidades y preparnos para un entorno de trabajo real. <br>
-                                <a href="https://gitlab.com/quirogatdf/control-asistencia">Repositorio</a>
+                                habilidades y preparnos para un entorno de trabajo real.
                             </p>
+                            <a class="card-item__link" href="https://gitlab.com/quirogatdf/control-asistencia">Ir al
+                                repositorio</a>
                         </li>
                         <li class="card-item">
                             <h3 class="card-item__company">Sistema de control de Ingreso</h3>
@@ -132,27 +133,48 @@
                             <p class="card-item__description">Con el fin de afianzar conocimientos, se desarrolló de
                                 manera personal un proyecto Full Stack (MySQL, Express, Angular, Node Js), el objetivo
                                 del mismo es permitir al usuario registrar su horario de ingreso y salida, a través de
-                                su DNI. <br>
-                                <a href="https://github.com/quirogatdf/OT225-server">Repositorio</a>
+                                su DNI.
                             </p>
+                            <a class="card-item__link" href="https://github.com/quirogatdf/OT225-server">Ir al
+                                repositorio</a>
                         </li>
                         <li class="card-item">
                             <h3 class="card-item__company">Portfolio Web</h3>
                             <h4 class="card-item__position">Fecha del Proyecto: 29/10/2022</h4>
                             <p class="card-item__description">Se desarrollo una aplicación web de arquitectura
                                 distribuida, que muestra: los datos personales, estudios cursados, experiencia laboral,
-                                habilidades blandas y duras y los proyectos realizados. <br>
-                                <a href="https://github.com/quirogatdf/portfolio-frontend">Repositorio</a>
+                                habilidades blandas y duras y los proyectos realizados.
                             </p>
+                            <a class="card-item__link" href="https://github.com/quirogatdf/portfolio-frontend">Ir al
+                                repositorio</a>
                         </li>
                     </ul>
+                </article>
+            </section>
+            <div class="line"> </div>
+            <section id="contact">
+                <article class="card-contact">
+                    <h2 class="container__title">Contact me</h2>
+                    <div class="card-contact__item"> 
+                        <iconify-icon class="card-contact__icon" icon="material-symbols:mail-outline"></iconify-icon>
+                        <a class="card-contact__link" href="mailto:quirogatdf@gmail.com">quirogatdf@gmail.com</a>
+                    </div>
+                    <div class="card-contact__item">
+                        <iconify-icon class="card-contact__icon" icon="ri:linkedin-fill"></iconify-icon>
+                        <a class="card-contact__link"href="https://www.linkedin.com/in/mequiroga/" target="_blank" rel="noopener noreferrer">/mequiroga</a>
+                    </div>
+                    <div class="card-contact__item">
+                        <iconify-icon class="card-contact__icon" icon="entypo-social:github"></iconify-icon>
+                        <a class="card-contact__link"href="https://github.com/quirogatdf" target="_blank" rel="noopener noreferrer">/quirogatdf</a>
+                    </div>
                 </article>
             </section>
         </div>
     </main>
     <footer>Design by Quiroga, Marcelo Emanuel - 2023 | <a
-            href="https://github.com/quirogatdf/quirogatdf.github.io">Repositorio</a></footer>
+            href="https://github.com/quirogatdf/quirogatdf.github.io">Ir al repositorio</a></footer>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="./js/index.js"> </script>
 </body>
 
 </html>

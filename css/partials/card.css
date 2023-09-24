@@ -18,3 +18,9 @@
 .card-item__description{
     margin-left: var(--spacing-8);
 }
+.card-item__link{
+    margin-left: var(--spacing-8);
+    font-weight: 300;
+    font-size: var(--font-xxsmall);
+}
+

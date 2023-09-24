@@ -18,11 +18,7 @@
 .container__description{
     padding: var(--spacing-8);
 }
-.container__items{
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-16);
-}
+
 
 .line{
     height: 1px;
