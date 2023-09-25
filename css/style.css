@@ -11,6 +11,7 @@
 @import url('./partials/tag.css');
 @import url('./partials/projects.css');
 @import url('./partials/contact.css');
+@import url('./partials/profile.css');
 
 
 header{
@@ -96,38 +97,6 @@ header{
   
 }
 
-.card-about{
-    padding-top: var(--spacing-36);
-    color: var(--light-font-solid);
-    display: flex;
-    gap: var(--spacing-16);
-    align-items: center;
-}
-.card-about__img{
-    height: 200px;
-    width: 200px;
-}
-.card-about__img img{
-    border-radius: 100px;
-    border: 2px solid var(--secondary-solid);
-}
-.card-about__information{
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-4);
-}
-.card-about__name{
-    font-weight: 600;
-    font-size: var(--font-large);
-}
-.card-about__position{
-    font-weight: 400;
-    font-size: var(--font-small);
-}
-.card-about__description{
-    font-weight: 100;
-    font-size: var(--font-xsmall);
-}
 
 
 /* .container h2{
@@ -138,5 +107,6 @@ header{
 
 .skill{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }

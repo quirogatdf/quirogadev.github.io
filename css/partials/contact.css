@@ -11,6 +11,7 @@
 
 .card-contact__item {
   display: flex;
+  font-size: var(--font-xsmall);
   gap: var(--spacing-8);
   justify-content: left;
   align-items: center;
