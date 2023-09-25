@@ -1,5 +1,8 @@
 .experience__items{
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-16);
+    gap: var(--spacing-36);
+}
+.experience__items:nth-child(1){
+    margin-top: var(--spacing-36);
 }
